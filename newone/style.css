@@ -1,0 +1,64 @@
+
+
+.informacao{
+    background-color: black;
+    width: 100%;
+    height: 500px;
+    text-align: 100px;
+    padding-left: 10px;
+    padding: 100px;
+  }
+h3{
+    color: rgb(117, 160, 174);
+    padding-left: 5%;
+}
+.imagem{
+    height: 400px;
+    width: 500px;
+    background-color: blue;
+    margin-left: 60%;
+    margin-top: -100px;
+}
+.continua{
+    padding-right: 50px;
+    padding-top: 200px;
+    text-align: center;
+}
+
+.quadrado{
+    margin-right: 100px;
+    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+
+.quadrado2{
+    margin-right: 100px;
+    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+
+.quadrado3{
+    margin-right: 100px;
+    float: right;
+    height: 300px;
+    width: 300px;
+    background-color: gray;
+}
+
+.cadastro{
+    background-color: rgb(117, 160, 174);
+    width: 100%;
+    height: 450px;
+    padding-top: 50px;
+}
+
+.final{
+    background-color: black;
+    width: 100%;
+    height: 200px;
+}
+
