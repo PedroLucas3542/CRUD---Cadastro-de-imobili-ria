@@ -23,35 +23,35 @@
         </div>
   </div>
   <div class="continua">
-        <h1 class="display-6">Temos os melhores preços de imóveis novos e reformados.</h1><br><br><br>
+        <h2 class="display-6">Temos os melhores preços de imóveis novos e reformados.</h2><br><br><br>
         <div class="quadrado"><img src="https://www.decorfacil.com/wp-content/uploads/2017/10/20171028casa-grande-26.jpg" width="100%" height="100%"><br><br>Assim como habitações de alto padrão de até 5 quartos com suíte, área de lazer e piscina.</div>
         <div class="quadrado2"><img src="https://www.decorfacil.com/wp-content/uploads/2017/03/20171011fachada-casa-simples-pequena-99.jpg" width="100%" height="100%"><br><br>Temos residências habitacionais com 2-3 quartos com suítes.</div>
         <div class="quadrado3"><img src="https://construtoralage.com.br/wp-content/uploads/2019/08/apartamento-2-3-4-quartos.jpg" width="100%" height="100%"><br><br>Possuímos habitações multifamiliares com áreas de lazer integradas, suítes, dentre outras opções.</div>
   </div><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  
   <div class="cadastro">
-        <form class="container">
+        <form class="container" action="salvar.php" method="POST">
   <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Nome Completo</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+    <label for="" class="form-label">Nome Completo</label>
+    <input type="text" class="form-control" name="nome">
   </div><br>
   <div class="mb-3">
     <label for="exampleInputPassword1" class="form-label">Email</label>
-    <input type="email" class="form-control" id="exampleInputPassword1">
+    <input type="email" class="form-control" name="email">
   </div><br>
   <div class="mb-3">
-      <label for="disabledSelect" class="form-label">Deseja alugar ou efeuar uma compra?</label>
-      <select id="disabledSelect" class="form-select">
+      <label class="form-label">Deseja alugar ou efeuar uma compra?</label>
+      <select class="form-select" name="desejo">
         <option>---------------</option>
         <option>Alugar</option>
         <option>Comprar</option>
-</select>
+        </select>
   </div><br>
-  <button type="submit" class="btn btn-primary">Enviar</button>
-</form>
+  <button name="submitBtn" type="submit" class="btn btn-primary">Enviar</button>
+  </form>
   </div>
-  <div class="final">
-    .
-  </div>
-  </body>
-</html>
+  
+
+
 
