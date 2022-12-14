@@ -31,6 +31,8 @@
   
   
   <div class="cadastro">
+    <center><h1 class="display-6 text-white">Ficou interessado(a)? Cadastre-se já para saber mais!</h1></center>
+    <br>
         <form class="container" action="salvar.php" method="POST">
   <div class="mb-3">
     <label for="" class="form-label">Nome Completo</label>

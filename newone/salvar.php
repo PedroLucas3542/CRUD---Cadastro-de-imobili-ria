@@ -20,6 +20,7 @@ if (!mysqli_query($conn,$sql))
 
 mysqli_close($conn);
 
-echo "<h1>Muito Obrigado! Entraremos em contato pelo seu email...</h1><br>
-        <a href='index.php'>Voltar ao site!</a>"
+echo "<link href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65' crossorigin='anonymous'>
+        <center><h1 display-6>Muito Obrigado! Entraremos em contato pelo seu email...</h1><br>
+        <a href='index.php' class='btn btn-primary' tabindex='-1'>Voltar ao site!</a></center>"
 ?>
