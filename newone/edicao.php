@@ -21,11 +21,11 @@ if (!$conn) {
 }
 		@$id = $_GET['id'];
 	
-		$consultar = $conn->query("select * from cadastro where id='$id'");
+		$consultar = $conn->query("SELECT * from cadastro where id=(select MAX(id) from cadastro)");
 
 		while($dados = $consultar->fetch_assoc()){
 			@$nome   = $dados['nome'];
-			@$email	= $dados['email$email'];
+			@$email	= $dados['email'];
 			@$desejo 	= $dados['desejo'];
 		}
 	?>
@@ -44,7 +44,7 @@ if (!$conn) {
     					<label for="email$email">Número:</label>
     					<input type="text" name="email" value="<?php echo @$email;?>" class="form-control">
 
-    					<label for="desejo">desejo:</label>
+    					<label for="desejo">Desejo:</label>
     					<input type="text" name="desejo" value="<?php echo @$desejo;?>" class="form-control">
 
     					<br>

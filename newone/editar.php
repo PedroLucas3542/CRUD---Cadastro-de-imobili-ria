@@ -12,16 +12,11 @@ if (!$conn) {
 }
     include_once 'edicao.php';
 
-	@$id = $_GET['id'];
-	$nome  = isset($_POST['nome'])?$_POST['nome']:"";
-	$email   = isset($_POST['email'])?$_POST['email']:"";
-	$desejo = isset($_POST['desejo'])?$_POST['desejo']:"";
 
-	@$sql="INSERT INTO cadastro (id, nome, email, desejo) VALUES (id, '$_POST[nome]','$_POST[email]','$_POST[desejo]')";
-    $delete="DELETE FROM aluno WHERE id=(select MAX(id) FROM aluno);";
+	@$update="UPDATE from cadastro set nome='$_POST[nome]', email='$_POST[email]', desejo='$_POST[nome]' where id=(select MAX(id) from cadastro)";
 	
 	if(mysqli_affected_rows($conn) > 0){
-		header("location: index.php");
+		header("location: edicao.php");
 	}
 	
 ?>
